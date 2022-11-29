@@ -1,0 +1,11 @@
+{
+    "name": "OiriginBuddy",
+    "version": "1.0.0",
+    "description": "OiriginBuddy",
+    "manifest_version": 3,
+    "author": "OiriginBuddy",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "OiriginBuddy"
+    }
+}
