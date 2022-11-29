@@ -2,12 +2,14 @@
     "name": "OiriginBuddy",
     "version": "1.0.0",
     "description": "OiriginBuddy",
-    "manifest_version": 3,
+    "manifest_version": 2,
     "author": "OiriginBuddy",
-    "action": {
-        "default_popup": "index.html",
-        "default_title": "OiriginBuddy"
-    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*"
+    ],
     "background": {
         "scripts": ["background.js"]
     }
