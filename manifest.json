@@ -4,8 +4,11 @@
     "description": "OiriginBuddy",
     "manifest_version": 3,
     "author": "OiriginBuddy",
-    "action":{
+    "action": {
         "default_popup": "index.html",
         "default_title": "OiriginBuddy"
+    },
+    "background": {
+        "scripts": ["background.js"]
     }
 }
