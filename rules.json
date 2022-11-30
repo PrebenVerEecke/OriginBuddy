@@ -1,0 +1,15 @@
+[
+	{
+		"id": 1,
+		"priority": 100,
+		"action": { "type": "redirect", "redirect": { "extensionPath": "/icon_128.png" } },
+		"condition": { "urlFilter": "preben.net", "resourceTypes": ["main_frame"] }
+	},
+	{
+		"id": 2,
+		"action": {
+			"type": "allow"
+		},
+		"condition": { "urlFilter": "|http*", "resourceTypes": ["main_frame"] }
+	}
+]

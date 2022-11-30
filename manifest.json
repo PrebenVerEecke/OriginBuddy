@@ -1,16 +1,24 @@
 {
-    "name": "OiriginBuddy",
-    "version": "1.0.0",
-    "description": "OiriginBuddy",
-    "manifest_version": 2,
-    "author": "OiriginBuddy",
-    "permissions": [
-        "webRequest",
-        "webRequestBlocking",
-        "http://*/*",
-        "https://*/*"
-    ],
-    "background": {
-        "scripts": ["background.js"]
-    }
+	"name": "OriginBuddy",
+	"version": "1.0.0",
+	"description": "OriginBuddy",
+	"manifest_version": 3,
+	"author": "OriginBuddy",
+	"icons": {
+		"128": "icon_128.png"
+	},
+	"permissions": ["webRequest", "declarativeNetRequest", "tabs", "scripting"],
+	"optional_host_permissions": ["*://*/*"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"declarative_net_request": {
+		"rule_resources": [
+			{
+				"id": "ruleset_1",
+				"enabled": true,
+				"path": "rules.json"
+			}
+		]
+	}
 }
