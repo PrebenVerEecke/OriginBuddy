@@ -11,7 +11,7 @@ A: Skill issue, read below
 
 -   Go to `chrome://extensions/`
 -   Slap this bad boi to the 'on' position  
-    ![Enable Developer mode](../../../../z:/Code/Other/OriginBuddy/docs/img/devmode.png)
+    ![Enable Developer mode](./docs/img/devmode.png)
 -   Click `Load unpacked`
 -   Find the location of this repo and select it
 -   Skill issue fixed
